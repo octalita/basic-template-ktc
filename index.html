@@ -3,91 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POSTTEST 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Card Penjualan Alat Musik</title>
 </head>
 <body>
-    <table border="1px">
-        <tr>  
-            <th>FAKTUR KOMERSIAL/<i>Commercial Invoice</i></th>
-            <th colspan="3" ><img src="img/tokopedia2.png"></th>
-            <th  > Tanggal Pembelian <br>
-                <input type="date"  value="2023-12-09"></th>   
-        </tr>
 
-        <tr>
-            <td>Nama Penjual : <b>Michael Johnson</b></td>
-            <td rowspan="2" colspan="2">
-                
-              <pre></pre> Alamat Penjual <br />
-                Jl. Mawar Melati, Perum Bunga Indah Blok A7 No1 <br />
-                Kec. Sentosa, Kota Samarinda, Kalimantan Timur, 12345 <br />
-                Kalimantan Timur. <br /></td>
+    <header>
+        <h1>LAMINTYAS MUSIC</h1>
+        <p><bold>music is something amazing</bold></p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="index.html#tentang saya">About me</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="main-content">
+        <h2>Welcome to the Musical Instrument Store!</h2>
+        <p>We provide a variety of quality musical instruments at the best prices.</p>
+        <a href="#" class="cta-button">View Products</a>
 
-            <td rowspan="2" colspan="2">
+        <div class="product-container">
+            <div class="product-card">
+                <img src="img/gambar gitar.jpg" alt="Gitar">
+                <h3>Acoustic guitar</h3>
+                <p>High quality acoustic guitar with beautiful sound.</p>
+                <p class="price">Rp 1.000.000</p>
+                <a href="#" class="buy-button">Buy Now</a>
+            </div>
+            
+            <div class="product-card">
+                <img src="img/keys.jpeg" alt="Keyboard">
+                <h3>Electric Keyboard</h3>
+                <p>Electric keyboard with a variety of sounds and advanced features.</p>
+                <p class="price">Rp 2.500.000</p>
+                <a href="#" class="buy-button">Buy Now</a>
+            </div>
+            
+            <div class="product-card">
+                <img src="img/drum.jpg" alt="Drums">
+                <h3>Drum Sets</h3>
+                <p>Complete drum set with additional equipment.</p>
+                <p class="price">Rp 3.500.000</p>
+                <a href="#" class="buy-button">Buy Now</a>
+            </div>
+    </section>
+    
 
-               <pre></pre> Alamat Pembeli <br />
-                Jl. Semua Indah, Perum Bunga Indah Blok Z7 No1 <br />
-                Kec. Miramar, Kota Samarinda, Kalimantan Timur, 12345 <br />
-                Kalimantan Timur. <br /></td>
-        </tr>
-        <tr>
-            <td>Nama Pembeli : <b>Miya Yoshitaka</b></td>
-        </tr>
-        <tr>
-            <td>Info Produk</td>
-            <td colspan="2">Jumlah</td>
-            <td>Harga Satuan</td>
-            <td>Total Harga</td>
-        </tr>
-        <tr>
-            <td>Nike Trinity Force Angel</td>
-            <td colspan="2">
-                <input value="1" type="number" /> pcs</td>
-            <td>Rp 799.000</td>
-            <td>Rp 799.000</td>
-        </tr>
+    <footer>
+        <p>&copy; 2023 LAMINTYAS MUSIC. Copyright protected.</p>
+    </footer>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
-        <tr>
-            <td rowspan="3" colspan="3"></td>
-            <td>Total Belanja</td>
-            <td>Rp 799.000</td>
-        </tr>
+    <div class="about me" id="tentang saya">
+        <h2 align="center">About Me </h2><br>
+        <P> <img src="img/9911005a-c729-4f83-b4da-6fde1e78172e.jpg" height="150px" align="left"> 
+            
+                Nama : Victor Bandhaso
+                <br>
+                Asal : Sangatta Utara
+                <br>
+                No Hp : 082157927487
+                <br>
+                E-mail : bandhasovictor@gmail.com
+            
+        </P>
 
-        <tr>
-            <td>Total Ongkos Kirim</td>
-            <td>Rp 99.000</td>
-        </tr>
+        <p>"Saya adalah seorang penikmat musik klasik yang juga suka menjelajahi berbagai genre musik. Dari Mozart hingga Metallica, saya percaya bahwa setiap jenis musik memiliki keindahan dan keunikannya sendiri.</p>
 
-         <tr>
-            <td>Total Tagihan</td>
-            <td><b>Rp 898.000</b></td>
-        </tr>
 
-        <tr>
-            <td>
-              Kurir:<br />
-              GNZ Ult - Ultimate
-            </td>
-            <td colspan="4">
-              Metode Pembayaran :<br />
-              <input type="radio" name="bank" /> Bank BCA
-              <input type="radio" name="bank" /> Bank Jago
-              <input type="radio" name="bank" /> Bank Mandiri
-              <input type="radio" name="bank" checked /> Bank Mega
-              <input type="radio" name="bank" /> Bank Kaltimtara</td>
-        </tr> 
-        
-        <tr>
-            <td colspan="5">
-              <ul>
-                <li>Nama : Victor Bandhaso</li>
-                <li>NIM  : 2209106063</li>
-                <li>Praktikum Web :<a href="https://classroom.google.com/c/NjIxNzQ1NTAyMjY4/a/NjIyNzU5MzAxMTg1/details">Posttest 1</a></li>
-              </ul>
-            </td>
-        </tr>
-        
-
-    </table>
+    </div>
+   
 </body>
 </html>

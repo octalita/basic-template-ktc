@@ -1,0 +1,58 @@
+/* style.css */
+
+
+.product-container {
+    display: flex;
+    justify-content: space-around; /* Ini akan mengatur produk ke samping */
+    flex-wrap: wrap; /* Ini akan membuat produk terlipat jika tidak cukup ruang */
+}
+
+.product-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    margin: 10px; /* Memberikan jarak antar produk */
+}
+
+.product-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.buy-button:hover {
+    background-color: #555;
+}
